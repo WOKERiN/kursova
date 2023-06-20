@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Вибір машини</title>
+ <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="1.1.html">Головна</a></li>
+            <li><a href="2.2.html">Про нас</a></li>
+            <li><a href="3.3.html">Тарифи</a></li>
+            <li><a href="4.4.html">Контакти</a></li>
+            <li><a href="http://localhost/phplogin/1.html">Вийти</li></a>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <table>
+              <tr>
+                <td>
+                  <img src="images/free-icon-frontal-taxi-cab-75780.png" alt="image" style="width: 30%; height: 40%;">
+                  <span style="display: inline; font-size: 50px; margin-top: 20px;"><a href="error.html">Економ Клас</a></span>
+                  <p id="economy"></p>
+                </td>
+                <td>
+                  <img src="images/free-icon-car-10915729.png" alt="image" style="width: 30%; height: 40%;">
+                  <span style="display: inline; font-size: 50px; margin-top: 20px;"><a href="error.html">Бізнес Клас</a></span>
+                  <p id="business"></p>
+                </td>
+                <td>
+                  <img src="images/free-icon-truck-162788.png" alt="image" style="width: 30%; height: 40%;">
+                  <span style="display: inline; font-size: 50px; margin-top: 20px;"><a href="error.html">Грузове таксі</a></span>
+                  <p id="cargo"></p>
+                </td>
+              </tr>
+            </table>
+            
+            <script>
+            document.getElementById("economy").innerHTML = Math.floor(Math.random() * (120 - 50 + 1) + 50);
+            document.getElementById("business").innerHTML = Math.floor(Math.random() * (240 - 90 + 1) + 90);
+            document.getElementById("cargo").innerHTML = Math.floor(Math.random() * (150 - 80 + 1) + 80);
+            </script>
+            
+          </ul>
+        </nav>
+    </body>
+</html>
