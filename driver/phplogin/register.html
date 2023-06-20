@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<title>Register</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	</head>
+	<body>
+		<div class="register">
+			<h1>Register</h1>
+			<form action="register.php" method="post" autocomplete="off">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Email" id="email" required>
+				<label for="age">
+					<i class="fas fa-age"></i>
+				</label>
+				<input type="text" name="age" placeholder="age" id="age" required>
+				<label for="number_of_posv">
+					<i class="fas fa-posv"></i>
+				</label>
+				<input type="text" name="number_of_posv" placeholder="number_of_posv" id="number_of_posv" required>
+				<label for="auto_number">
+					<i class="fas fa-auto num"></i>
+				</label>
+				<input type="text" name="auto_number" placeholder="auto_number" id="auto_number" required>
+				<label for="auto">
+					<i class="fas fa-auto"></i>
+				</label>
+				<input type="text" name="auto" placeholder="auto" id="auto" required>
+				<input type="submit" value="Register">
+			</form>
+		</div>
+	</body>
+</html>

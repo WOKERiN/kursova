@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <meta charset="UTF-8">
+    <title>Сервіс таксі</title>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+    <script>
+      function acceptOrder(button) {
+          button.innerHTML = 'Замовлення прийнято';
+          button.disabled = true;
+      }
+  </script>
+  
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>  
+            <li><a href="1.1.html">Головна</a></li>
+          <li><a href="http://localhost/phplogin/1.html">Вийти</li></a>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-image">
+      <div class="hero-text">
+        <h1>Доступні замовлення</h1>
+        <iframe src="orders.php" frameborder="0" style="width: 1000%; height: 4000px;"></iframe>
+      </div>
+    </section>
+    <section class="services">
+    
+    </section>
+  </body>
+</html>
